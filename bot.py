@@ -2,15 +2,15 @@
 import logging
 import os
 from logging.handlers import RotatingFileHandler
-
+from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message  # ловим все обновления этого типа
 from aiogram.filters.command import Command  # обрабатываем команды /start, /help и другие
-
+load_dotenv()
 # 2. Инициализация объектов
 TOKEN = os.getenv('TOKEN')
 # Используем твой токен из заготовки, а если он не указан — берём из переменной окружения TOKEN
-bot = Bot(token= TOKEN if not TOKEN else TOKEN)
+bot = Bot(token=TOKEN if not TOKEN else TOKEN)
 dp = Dispatcher()  # Создаем объект диспетчера. Все хэндлеры(обработчики) должны быть подключены к диспетчеру
 
 # Логирование и в файл, и в консоль

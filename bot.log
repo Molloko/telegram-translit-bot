@@ -157,3 +157,24 @@
 2025-08-12 22:07:42,601 | WARNING | Received SIGINT signal
 2025-08-12 22:07:42,603 | INFO | Polling stopped for bot @transliteration_molloko_bot id=8358973050 - 'транслитерация'
 2025-08-12 22:07:42,603 | INFO | Polling stopped
+2025-08-16 16:35:06,784 | INFO | Bot is starting
+2025-08-16 16:35:06,785 | INFO | Start polling
+2025-08-16 16:35:06,990 | INFO | Run polling for bot @transliteration_molloko_bot id=8358973050 - 'транслитерация'
+2025-08-16 16:35:19,608 | INFO | Ярослав 1040206021: Даник -> Danik
+2025-08-16 16:35:19,792 | INFO | Update id=793178730 is handled. Duration 183 ms by bot id=8358973050
+2025-08-16 16:35:23,527 | INFO | Ярослав 1040206021: Ярослав -> IAroslav
+2025-08-16 16:35:23,622 | INFO | Update id=793178731 is handled. Duration 94 ms by bot id=8358973050
+2025-08-16 16:35:29,557 | INFO | Ярослав 1040206021: Гилязов -> Giliazov
+2025-08-16 16:35:29,677 | INFO | Update id=793178732 is handled. Duration 119 ms by bot id=8358973050
+2025-08-16 16:35:41,956 | WARNING | Received SIGINT signal
+2025-08-16 16:35:41,956 | INFO | Polling stopped for bot @transliteration_molloko_bot id=8358973050 - 'транслитерация'
+2025-08-16 16:35:41,956 | INFO | Polling stopped
+2025-08-16 16:41:33,232 | INFO | Bot is starting
+2025-08-16 16:41:33,233 | INFO | Start polling
+2025-08-16 16:41:33,420 | INFO | Run polling for bot @transliteration_molloko_bot id=8358973050 - 'транслитерация'
+2025-08-16 16:43:24,739 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-16 16:43:24,740 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8358973050)
+2025-08-16 16:43:35,970 | INFO | Connection established (tryings = 1, bot id = 8358973050)
+2025-08-16 16:43:35,972 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-16 16:43:35,975 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8358973050)
+2025-08-16 16:43:47,144 | INFO | Connection established (tryings = 1, bot id = 8358973050)
